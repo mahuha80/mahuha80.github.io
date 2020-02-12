@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+
+}
+
+#clear {
+    clear: both;
+}
+
+header {
+    width: 100%;
+    height: 64px;
+    background-color: #61829c;
+    font-size: 12px;
+}
+
+header ul li {
+    float: left;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    line-height: 64px;
+    color: #213749;
+}
+
+header #back {
+    margin-left: 83px;
+    margin-right: 373px;
+}
+
+header a {
+    margin-right: 71px;
+}
+
+
+header a:hover {
+    color: red;
+}
+
+nav {
+    width: 100%;
+    height: 701px;
+    position: relative;
+}
+
+nav img {
+    width: 100%;
+    height: 701px;
+}
+
+nav section span {
+    position: absolute;
+    top: 126px;
+    left: 527px;
+    font-size: 65px;
+    font-weight: bold;
+    color: #314d63;
+}
+
+nav section h2 {
+    font-size: 20px;
+    position: absolute;
+    top: 230px;
+    left: 398px;
+    font-weight: normal;
+    color: #314d63;
+}
+
+nav section div {
+    font-size: 17.97px;
+    text-align: center;
+    width: 150px;
+    height: 38px;
+    color: #fff;
+    background-color: red;
+    line-height: 38px;
+    position: absolute;
+    top: 331px;
+    left: 606px;
+}
+
+article {
+    width: 100%;
+    height: 2304px;
+}
+
+article #article-1 {
+    width: 100%;
+    height: 185px;
+    position: relative;
+}
+
+article #article-1 span {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    color: #314d63;
+    top: 60px;
+    left: 579px;
+
+}
+
+article #article-1 h2 {
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    top: 102px;
+    text-align: center;
+    font-size: 15px;
+    color: #415a6e;
+
+}
+
+/*article 2 anh but*/
+article #article-2 {
+    width: 1170px;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+}
+
+article #article-2 img {
+    float: left;
+    margin-right: 53px;
+}
+
+article #article-2 span {
+    top: 39px;
+    position: relative;
+    clear: both;
+    color: #314d63;
+}
+
+article #article-2 #section-read {
+    width: 150px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 17.97px;
+    top: 304px;
+    background: RED;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    left: 1022px;
+}
+
+article #article-3 {
+    width: 100%;
+    height: 617px;
+    position: relative;
+
+}
+
+article #text-article-3 {
+    width: 612px;
+    height: 362px;
+    background: rgba(121, 135, 146, 0.59);
+    position: absolute;
+    top: 81px;
+    left: 90px;
+}
+
+article #text-article-3 span {
+    color: white;
+    line-height: 25px;
+    position: absolute;
+    top: 74px;
+    left: 56px;
+}
+
+article #text-article-3 div {
+    position: absolute;
+    top: 232px;
+    left: 333px;
+    width: 148px;
+    height: 38px;
+    background: red;
+    text-align: center;
+    line-height: 38px;
+}
+
+article #article-4 {
+    width: 100%;
+    height: 1072px;
+}
+
+article #article-4 #container {
+    padding-top: 82px;
+    width: 87.8%;
+    height: 1072px;
+    margin: auto;
+    position: relative;
+}
+
+aside #aside-2 {
+    width: 100%;
+    margin: auto;
+    height: 550px;
+    background: #d2dce4;
+}
+
+aside #aside-2 #container {
+    width: 1170px;
+    height: 539px;
+    margin: auto;
+    padding-top: 77px;
+    position: relative;
+}
+
+aside #container input {
+    float: left;
+}
+
+aside #container input,
+button {
+    width: 500px;
+    height: 49px;
+    margin-bottom: 23px;
+    border: 1px solid #5f6265;
+}
+
+aside #container button {
+    width: 517px;
+    height: 49px;
+    margin-bottom: 23px;
+    border: 1px solid #5f6265;
+}
+
+aside #container textarea {
+    width: 500px;
+    height: 145px;
+    margin-bottom: 23px;
+    border: 1px solid #5f6265;
+
+}
+
+aside #container img {
+    position: absolute;
+    right: 0;
+    top: 195px;
+}
+
+aside #container span {
+    position: absolute;
+    top: 71px;
+    left: 570px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #314d63;
+
+}
+
+aside #container h2 {
+    position: absolute;
+    top: 125px;
+    left: 570px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    color: #415a6e;
+}
+
+aside #container button {
+    color: white;
+    background: #ea3628;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 369px;
+    background: #2c455a;
+    padding-top: 60px;
+
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e0e2e5;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer #container {
+    width: 90%;
+    margin: auto;
+    height: 369px
+}
+
+footer #container div {
+    float: left;
+}
+.opacity:hover {
+    opacity: 0.6;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.view:hover{
+    background: green;
+}
